@@ -6,7 +6,6 @@ import Header from './Components/Header';
 import FoodOptions from './Components/FoodOptions';
 import GroceryOptions from './Components/GroceryOptions';
 import DineOutOptions from './Components/DineoutOptions';
-import Restaurants from './Components/Restaurants';
 
 function App() {
 
@@ -16,7 +15,6 @@ function App() {
       <FoodOptions/>
       <GroceryOptions/>
       <DineOutOptions/>
-      <Restaurants/>
     </>
   )
 }
