@@ -512,6 +512,22 @@ Uses your same code (no code rewrite)
 Free and fast (Render’s free tier is enough)
 
 Full control (you can monitor or limit requests)
+
+<!-- Firtly let divide this second page in 3 sections -->
+
+1. 1st section => "What's on your mind?"
+2. 2nd section => "Top restaurant chains in Delhi"
+3. 3rd section => "Restaurants with online food delivery in Delhi"
+
+=> Let make this 3rd section first using "Live-Swiggy-API data"
+
+1. Will use useEffect to do fetch operation
+2. data will be changing againa nd again bcoz we will use here realdata using proxy server
+3. Will also apply "Shimmer Effect"
+
+=> Written code in "AllRestaurantsOptions" & "AllRestaurantsCard"
+=> Also written shimmer effect in separate "Shiffer" component file
+
   
 <!-- Now to create that restaurants cards -->
 => Fhilal k liye ek baar image show kra kr check kr lete h restaurants ki normally whi apne method se jese baaki cards mein kra h apn ne.
@@ -522,3 +538,5 @@ Full control (you can monitor or limit requests)
 => So, iske liye apne use krenge "Routing" ka concept, taaki mein jese hi click krun "Delivery Options" waale pr tb routing se hum "Restaurents" waale page pr chale jaaye.
 
 => Let's do this in next lecture.
+
+<!-- Check readme2.md file -->
