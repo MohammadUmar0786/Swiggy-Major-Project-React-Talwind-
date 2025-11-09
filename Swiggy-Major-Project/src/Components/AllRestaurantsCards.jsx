@@ -1,5 +1,9 @@
+import { Link } from "react-router";
+
 export default function AllRestaurantsCards({restInfo}){
     return(
+
+    <Link to={"/city/delhi/"+restInfo?.info?.id}>
         <div className=" w-[273px] h-[340px] flex-shrink rounded-2xl overflow-hidden shadow-md bg-white transform duration-200 hover:scale-95">
 
         <div className="relative">   
@@ -39,7 +43,8 @@ export default function AllRestaurantsCards({restInfo}){
                 <p>{restInfo?.info?.cuisines[0]}</p>
                 <p>{restInfo?.info?.areaName}</p>
             </div>
+            </div>
         </div>
-    </div>
+    </Link>   
     )
 }
